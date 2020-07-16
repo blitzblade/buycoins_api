@@ -15,7 +15,7 @@ module Types
       elsif type == "SELL"
         adjusted_price = btc_price - ((margin / 100.0) * btc_price)
       end
-      adjusted_price * exchange_rate
+      (adjusted_price * exchange_rate).round(2)
     end
 
     def get_btc_price
