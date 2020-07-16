@@ -10,19 +10,20 @@ module Types
       btc_price = get_btc_price.to_f
 
       adjusted_price = 0
-      if type == 'BUY'
+      if type == "BUY"
         adjusted_price = btc_price + ((margin / 100.0) * btc_price)
-      elsif type == 'SELL'
+      elsif type == "SELL"
         adjusted_price = btc_price - ((margin / 100.0) * btc_price)
       end
       adjusted_price * exchange_rate
     end
 
     def get_btc_price
-      api_url = 'https://api.coindesk.com/v1/bpi/currentprice/BTC.json'
+      api_url = "https://api.coindesk.com/v1/bpi/currentprice/BTC.json"
       response = HTTParty.get(api_url)
+      puts "RESPONSE: #{response.inspect}"
       response = JSON.parse(response.body)
-      response['bpi']['USD']['rate']
+      response["bpi"]["USD"]["rate"]
     end
   end
 end

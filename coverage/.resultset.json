@@ -1,0 +1,111 @@
+{
+  "RSpec": {
+    "coverage": {
+      "C:/Users/samson.dadson/Workspace/Blitz/Ruby/buycoins_api/app/controllers/api_controller.rb": {
+        "lines": [
+          1,
+          1,
+          7,
+          5,
+          5,
+          null,
+          5,
+          5,
+          null,
+          2,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          9,
+          null,
+          4,
+          2,
+          null,
+          2,
+          null,
+          null,
+          1,
+          null,
+          2,
+          null,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/samson.dadson/Workspace/Blitz/Ruby/buycoins_api/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "C:/Users/samson.dadson/Workspace/Blitz/Ruby/buycoins_api/app/graphql/api_schema.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/samson.dadson/Workspace/Blitz/Ruby/buycoins_api/app/graphql/types/calculate_price_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          2,
+          1,
+          1,
+          1,
+          null,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/samson.dadson/Workspace/Blitz/Ruby/buycoins_api/app/graphql/types/enum_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "C:/Users/samson.dadson/Workspace/Blitz/Ruby/buycoins_api/app/graphql/types/base_enum.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1594924137
+  }
+}
