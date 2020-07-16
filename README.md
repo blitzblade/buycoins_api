@@ -14,6 +14,8 @@ API that that calculates the price to sell/buy bitcoin in Naira.
   If you don't have a [GitHub](https://github.com) account already you can create one [here](https://github.com/join).
   Follow instructions [here](https://git-scm.com/downloads) to install the latest version of Git for
 
+* [Postgres](https://www.postgresql.org/): You can grab the latest version of postgres by downloading it directly on the website.
+
 ## Project Setup
 
 First things first, Clone this repository on your computer with the following command: `git clone https://github.com/blitzblade/buycoins_api.git`
@@ -21,7 +23,6 @@ First things first, Clone this repository on your computer with the following co
 ### Direct Setup
 
 1. Run `bin/setup` to grab all the dependencies and setup the project.
-2. Contact administrator to get environment variables and paste them into `config/application.yml`
-3. Run `bin/server` to start the application on [http://localhost:5000](http://localhost:5000).
+2. Run `bin/server` to start the application on [http://localhost:5000](http://localhost:5000).
 
 I use Rubocop for static code analysis of our Ruby code and Rspec for testing models & controllers. To execute the test suite, run `bin/test`.
